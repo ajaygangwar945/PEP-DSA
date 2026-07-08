@@ -3,6 +3,11 @@ out/
 !**/src/main/**/out/
 !**/src/test/**/out/
 .kotlin
+.idea/
+*.iml
+
+### Build output ###
+build/
 
 ### Eclipse ###
 .apt_generated
@@ -15,6 +20,7 @@ out/
 bin/
 !**/src/main/**/bin/
 !**/src/test/**/bin/
+.metadata/
 
 ### NetBeans ###
 /nbproject/private/
@@ -26,5 +32,6 @@ bin/
 ### VS Code ###
 .vscode/
 
-### Mac OS ###
+### OS files ###
 .DS_Store
+Thumbs.db
